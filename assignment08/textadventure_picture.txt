@@ -10,6 +10,6 @@ void drawPicture()
    cout << "  |  |[] []  ==   |  |" << endl;
    cout << "  |  |____________|  |" << endl;
    cout << "  /__\\            /__\\" << endl;
-   cout << "   ~~              ~~" << endl;
+   cout << "   ~~              ~~ " << endl;
    cout << endl;
 }
