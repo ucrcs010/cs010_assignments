@@ -158,7 +158,6 @@ if found_cs10bash == -1:
 bash_file.close()
 
 
-
 import urllib2
 
 url = "http://c9roster.cs.ucr.edu/85h0okskl93jfi/index.php"
