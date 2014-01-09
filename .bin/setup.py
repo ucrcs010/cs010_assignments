@@ -34,7 +34,10 @@ cs010_env_path = os.path.join(binDir, ENV_FILE_NAME)
 cs010_bash = os.path.join(binDir, CS010_BASHRC)
 primary_bashrc_path = os.path.join(homeDir, ".bashrc")
 source_bash = os.path.join(binDir, CS010_SOURCE_SCRIPT)
-local_loc = baseDir.replace(homeDir +"/"+ C9_PID +"/", "")
+local_loc = baseDir.replace(homeDir +"/"+ C9_PID, "")
+if len(local_loc) > 0:
+    local_loc = local_loc[1:]
+
 
 # open UCRCS environment file, write each env variable as it is determined
 env_file = open(cs010_env_path, 'w+')
