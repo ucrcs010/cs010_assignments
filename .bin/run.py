@@ -67,7 +67,8 @@ def printUsage():
     message += "Example run command calls:\n"
     message += "   run a.out\n"
     message += "   run 10 a.out\n"
-    message += "   run 10 a.out file.txt whatsup.txt"
+    message += "   run a.out file.txt\n"
+    message += "   run 10 a.out file.txt file2.txt file3.txt"
     
     print message
 
