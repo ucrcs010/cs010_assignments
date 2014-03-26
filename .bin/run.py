@@ -73,7 +73,7 @@ def printUsage():
 
 def main():
     helpList = ["-h", "-help", "--help"]
-    if len(sys.argv) != 2 and len(sys.argv) != 3:
+    if len(sys.argv) < 2:
         printUsage()
         sys.exit()
     elif len(sys.argv) == 2: 
@@ -84,8 +84,14 @@ def main():
             cmd = sys.argv[1]
             timeout = 5
     elif len(sys.argv) == 3:
-        cmd = sys.argv[1]
-        timeout = int(sys.argv[2])
+        timeout = int(sys.argv[1])
+        cmd = sys.argv[2]
+    else
+        timeout = int(sys.argv[1])
+        cmd = sys.argv[2]
+        cmd_args = sys.argv[2:]
+        print cmd_args
+        sys.exit()
     
     curDirectory = os.getcwd()
     executable_path = os.path.join(curDirectory, cmd)
