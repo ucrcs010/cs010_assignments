@@ -62,12 +62,12 @@ def printUsage():
     message += "sure to choose the lowest possible time in seconds"
     message += " that is required.\n"
     message += "The time is optional; if left out, 5 seconds will be used.\n\n"
-    message += "Command line arguments (3) will be passed on to the"
+    message += "All command line arguments (3) will be passed on to the"
     message += " executable.\n\n"
     message += "Example run command calls:\n"
     message += "   run a.out\n"
     message += "   run 10 a.out\n"
-    message += "   run 10 a.out filename.txt"
+    message += "   run 10 a.out file.txt whatsup.txt"
     
     print message
 
