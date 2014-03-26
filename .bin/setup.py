@@ -116,10 +116,10 @@ while True:
             elif course_name == "CS_TEACH":
                 course = "99"
             break
-    course = raw_input("\n\t1) CS 010\n\t2) CS 010v\n\t3) CS 012\n\t4) CS 012v\nPlease enter the number preceding the course you are enrolled in: ")
+    course = raw_input("\n\t1) CS 010\n\t2) CS 010v\n\t3) CS 012\n\t4) CS 012v\n\t99) CS Teacher\nPlease enter the number preceding the course you are enrolled in: ")
     course = course.strip()
     new_value = True
-    if str(course) == "1" or str(course) == "2" or str(course) == "3" or str(course) == "4":
+    if str(course) == "1" or str(course) == "2" or str(course) == "3" or str(course) == "4" or str(course) == "99":
         # Create course name
         if str(course) == "1":
             course_name = "CS010"
