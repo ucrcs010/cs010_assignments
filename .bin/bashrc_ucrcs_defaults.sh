@@ -7,10 +7,13 @@ home_dir=${C9_PID}
 alias home="cd ~/${home_dir}"
 
 # run command utilized to execute programs for defined time period
-alias run="~/${home_dir}/.bin/run.py"
+alias run="~/${home_dir}/.bin/ucr_cs/run.py"
 
 # run source command on bashrc file
 alias sourceme="source ~/.bashrc"
 
-# grab the run_once command again from github
-alias grab_runonce="git checkout run_once.sh"
+# reset the environment variables introduced by UCR CS
+alias resetenv="~/${home_dir}/.bin/ucr_cs/reset_env.sh"
+
+# alias g++ to the compile script
+alias g++="~/${home_dir}/.bin/ucr_cs/compile.sh"
