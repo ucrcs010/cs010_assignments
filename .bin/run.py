@@ -89,10 +89,8 @@ def main():
     else:
         timeout = int(sys.argv[1])
         cmd = sys.argv[2]
-        cmd_args = sys.argv[2:]
-        print cmd_args
-        sys.exit()
-    
+        cmd_args = sys.argv[3:]
+
     curDirectory = os.getcwd()
     executable_path = os.path.join(curDirectory, cmd)
     
@@ -115,7 +113,7 @@ def main():
     try:
         if os.path.isfile(executable_path):
             t = Task(timeout)
-            t.check_call([executable_path])
+            t.check_call([executable_path]+cmd_args)
         else:
             message = "ERROR:\n\nThe file you wish to execute cannot be found. "
             message += "Make sure you are "
