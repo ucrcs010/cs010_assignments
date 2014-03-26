@@ -187,7 +187,7 @@ page = urllib2.urlopen(url)
 
 
 print ""
-print "Please, close all editing tabs/terminals except one at bottom of interface."
-print "Type 'exit' and hit 'enter' within the terminal at bottom of interface."
+print "Close all open terminals, except one."
+print "Type 'exit' and hit 'enter' in the remaining open terminal(s)."
 print ""
     
