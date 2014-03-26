@@ -86,7 +86,7 @@ def main():
     elif len(sys.argv) == 3:
         timeout = int(sys.argv[1])
         cmd = sys.argv[2]
-    else
+    else:
         timeout = int(sys.argv[1])
         cmd = sys.argv[2]
         cmd_args = sys.argv[2:]
