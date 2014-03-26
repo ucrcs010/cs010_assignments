@@ -16,4 +16,6 @@ cd ~/$C9_PID
 # source the bashrc
 source ~/.bashrc
 
+echo "Exit all open terminals to properly reset all open environments."
+
 exit 0
