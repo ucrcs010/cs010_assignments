@@ -60,7 +60,6 @@ def printUsage():
     message += "The time (1) is used to avoid unbounded output and infinite"
     message += " loops. Please make\n"
     message += "sure to choose the lowest possible time in seconds"
-"sure to choose the lowest possible time in seconds that is required.\n""    
     message += " that is required.\n"
     message += "The time is option, if left out, 5 seconds will be used.\n\n"
     message += "Command line arguments (3) will be passed on to the"
