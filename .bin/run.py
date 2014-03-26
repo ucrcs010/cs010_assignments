@@ -53,7 +53,11 @@ def printUsage():
     print "usage: run executable_name"
     print "usage: run executable_name timeout_in_seconds"
     print ""
-    print "Please use one of the two usage cases displayed above."
+    s = "Please use one of the above generic use cases. "
+    s += "Two specific examples are below:"
+    print s
+    print "run a.out"
+    print "run a.out 10"
 
 def main():
     helpList = ["-h", "-help", "--help"]
