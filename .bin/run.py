@@ -73,6 +73,8 @@ def printUsage():
 
 def main():
     helpList = ["-h", "-help", "--help"]
+    cmd_args = []
+    timeout = 5
     if len(sys.argv) < 2:
         printUsage()
         sys.exit()
@@ -82,10 +84,13 @@ def main():
                sys.exit()
         else:
             cmd = sys.argv[1]
-            timeout = 5
     elif len(sys.argv) == 3:
-        timeout = int(sys.argv[1])
-        cmd = sys.argv[2]
+        if not os.path.isfile(sys.argv[1]):
+            timeout = int(sys.argv[1])
+            cmd = sys.argv[2]
+        else:
+            cmd = sys.argv[1]
+            cmd_args = sys.argv[2:]
     else:
         timeout = int(sys.argv[1])
         cmd = sys.argv[2]
