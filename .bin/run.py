@@ -51,17 +51,23 @@ class Task:
 def printUsage():
     # Assumes command has been aliased as run 
     message = "To execute your program with the run command you must supply"
-    message += " two arguments:\n"
-    message += "\t1) the executable name\n"
-    message += "\t2) time in seconds before forcefully terminating"
-    message += " your program\n\n"
-    message += "The time is used to avoid unbounded print outs in infinite"
+    message += " a few arguments:\n"
+    message += "   1) time in seconds before forcefully terminating"
+    message += " your program (optional)\n\n"
+    message += "   2) the executable name\n"
+    message += "   3) a.out's command line arguments (optional)\n"
+    
+    message += "The time (1) is used to avoid unbounded output and infinite"
     message += " loops. Please make\n"
     message += "sure to choose the lowest possible time in seconds"
-    message += " that is required.\n\n"
+"sure to choose the lowest possible time in seconds that is required.\n""    
+    message += " that is required.\n"
+    message += "The time is option, if left out, 5 seconds will be used.\n\n"
+    message += "Command line arguments (3) will be passed on to the"
+    message += " executable.\n\n"
     message += "Example run command calls:\n"
-    message += "\trun a.out\n"
-    message += "\trun a.out 10"
+    message += "   run a.out\n"
+    message += "   run 10 a.out\n"
     
     print message
 
