@@ -53,8 +53,7 @@ def printUsage():
     message = "To execute your program with the run command you must supply"
     message += " two arguments:\n"
     message += "\t1) the executable name\n"
-    message += "\t2) the time in seconds to execute the program for, before\n"
-    message += " terminating it\n\n"
+    message += "\t2) time in seconds before forcefully terminating your program\n"
     message += "The time is used to avoid unbounded print outs in infinite"
     message += " loops. Please make\n"
     message += "sure to choose the lowest possible time in seconds"
@@ -62,7 +61,7 @@ def printUsage():
     message += "Example run command calls:\n"
     message += "\trun a.out\n"
     message += "\trun a.out 10\n"
-
+    
     print message
 
 def main():
