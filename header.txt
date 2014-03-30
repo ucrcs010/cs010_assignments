@@ -1,18 +1,11 @@
 //  =============== BEGIN ASSESSMENT HEADER ================
-/// @file assignment<#>/main.cpp 
-/// @brief Assignment/Lab <#, e.g. 1,2,3..10> for CS 10 <quarter & year>
+/// @file mathematics.cpp 
+/// @brief assn4/Mathematics
 ///
-/// @author <Your name> [<Your UCRSub login email>]
-/// @date <Current date>
-///
-/// @par Enrollment Notes 
-///     Lecture Section: <e.g. 001>
-/// @par
-///     Lab Section: <e.g. 021>
-/// @par
-///     TA: <TA name>
+/// @author Test Student [RSubEmail@ucr.edu]
+/// @date May 1, 2014
 ///
 /// @par Plagiarism Section
-/// I hereby certify that the code in this file
-/// is ENTIRELY my own original work.
-//  =============== END ASSESSMENT HEADER ==================
+/// I hereby certify that I have not received assistance on this assignment, 
+/// or used code, from ANY outside source other than the instruction team.
+//  ================== END ASSESSMENT HEADER ===============
