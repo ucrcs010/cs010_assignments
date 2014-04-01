@@ -1,21 +1,14 @@
 //  =============== BEGIN ASSESSMENT HEADER ================
-/// @file assignment00/hello_world.cpp 
-/// @brief Assignment 00 for CS 10 Winter 2013
+/// @file hello_world.cpp
+/// @brief assignment00/Hello World
 ///
-/// @author Jane Doe [jdoe099@ucr.edu]
-/// @date March 12, 2013
-///
-/// @par Enrollment Notes 
-///     Lecture Section: 001
-/// @par
-///     Lab Section: 021
-/// @par
-///     TA: John Smith
+/// @author Test Student [RSubEmail@ucr.edu]
+/// @date May 1, 2014
 ///
 /// @par Plagiarism Section
-/// I hereby certify that the code in this file
-/// is ENTIRELY my own original work.
-//  =============== END ASSESSMENT HEADER ==================
+/// I hereby certify that I have not received assistance on this assignment,
+/// or used code, from ANY outside source other than the instruction team.
+//  ================== END ASSESSMENT HEADER ===============
 #include <iostream>
 
 using namespace std;
