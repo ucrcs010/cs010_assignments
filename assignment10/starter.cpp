@@ -27,6 +27,7 @@ void printEmpty();
 void printColor();
 void printWall();
 void readGrid(vector <vector <int> > &, vector <vector <bool> > &);
+void LAB_DEBUG_printGrid(const vector <vector <int> > &grid);
 
 
 // States for grid spots for use throughout the program
@@ -74,6 +75,7 @@ bool percComplete(const vector <vector <int> > &grid,
 /// @param grid the grid to print, filled with integer states for each cell
 void printGrid(const vector <vector <int> > &grid)
 {
+    LAB_DEBUG_printGrid(grid);
     // TODO: implement this function
     
     /// Clear the screen
