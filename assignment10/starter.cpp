@@ -75,6 +75,7 @@ bool percComplete(const vector <vector <int> > &grid,
 /// @param grid the grid to print, filled with integer states for each cell
 void printGrid(const vector <vector <int> > &grid)
 {
+    // Comment this function call out before turning into R'Sub
     LAB_DEBUG_printGrid(grid);
     // TODO: implement this function
     
